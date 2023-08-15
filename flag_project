@@ -1,0 +1,9 @@
+width = input("Flag width:\n")
+width = int(width)
+height = input("Flag height:\n")
+height = int(height)
+half_of_w = int(width / 2)
+half_of_h = int(height / 2)
+upper = '#' * half_of_w + '-' * half_of_w   + '\n'
+lower = '-' * width  + '\n'
+print(upper*2 + lower*2 )
